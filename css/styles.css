@@ -1,0 +1,83 @@
+body {
+	background-color: #DFDFDF;
+	font: 1em "Open Sans", sans-serif;
+}
+
+.list {
+	background: #FFF;
+	box-sizing: border-box;
+	padding: 20px;
+	box-shadow: 3px 3px 2px rgba(210, 200, 223);
+	max-width: 500px;
+	margin: 20px auto;
+	border-radius: 3px;
+}
+
+
+h1 {
+	font-family: "Shadows Into Light Two", cursive;
+	margin: 0;
+}
+
+
+
+.button {
+	display: inline-block;
+	background: #d9dfe1;
+	padding: 4px 6px;
+	font-size: .8em;
+	color: #363639;  
+	text-decoration: none;
+	opacity: 0.4;
+	border-radius: 2px;
+	float: right;
+	cursor: pointer;
+	box-shadow: none;
+	border: none;
+	outline: none;
+}
+
+.button:hover {
+	background: #D3D3D3;
+	opacity: 1;
+}
+
+.items {
+	list-style: none;
+	margin: 0;
+	margin-bottom: 10px;
+	padding: 0;
+}
+
+.input {
+	width: 100%;
+	font-size: 1em;
+}
+
+.input:focus, .submit:focus {
+	outline: none;
+}
+
+li, .input {
+	border:none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px dashed;
+	padding-bottom: 10px;
+	word-wrap: break-word;
+}
+
+.done {
+	text-decoration: line-through;
+}
+
+.submit {
+	width: 100%;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	background: #fff;
+	font-size: 1em;
+	cursor: pointer;
+}
+
+
